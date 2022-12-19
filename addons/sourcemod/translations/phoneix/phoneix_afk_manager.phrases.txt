@@ -1,0 +1,48 @@
+﻿//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+/******************* PLUGIN: AFK MANAGER *******************/	
+	"Move_Warning"
+	{
+		"#format"	"{1:i}"
+
+		"tr"		"[{GREEN}AFK{NORMAL}] Dikkat: {RED}{1}{NORMAL} saniye içinde hareket etmezseniz izleyicilere atılacaksınız."
+	}
+
+	"Kick_Warning"
+	{
+		"#format"	"{1:i}"
+
+		"tr"		"[{GREEN}AFK{NORMAL}] Dikkat: {RED}{1}{NORMAL} saniye içinde ayrılmazsanız oyundan atılacaksınız."
+	}
+
+	"Move_Announce"
+	{
+		"#format"	"{1:s}"
+
+		"tr"		"[{GREEN}AFK{NORMAL}] {PINK}{1}{NORMAL} uzun süre AFK olduğu için izleyicilere atıldı."
+	}
+
+	"Kick_Announce"
+	{
+		"#format"	"{1:s}"
+		"tr"		"[{GREEN}AFK{NORMAL}] {PINK}{1}{NORMAL} uzun süre AFK olduğu için oyundan atıldı."
+	}
+
+	"Kick_Message"
+	{
+		"tr"		"Uzun süre AFK olduğunuz için oyundan atıldınız."
+	}
+/******************* PLUGIN: AFK MANAGER *******************/	
+
+}
+
